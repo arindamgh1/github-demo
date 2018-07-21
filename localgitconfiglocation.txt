@@ -1,0 +1,28 @@
+C:\Program Files\Git\mingw64\etc\gitconfig
+
+Existing::::
+[http]
+[user]
+	name = Arindam Ghosh
+	email = arindamgh@in.ibm.com
+[http]
+    sslVerify = false
+	proxy = 'socks5://127.0.0.1:11130'
+[credential]
+	helper = manager
+[core]
+	longpaths = true
+
+	
+Replace existing with below ::::
+[http]
+[user]
+	name = Arindam Ghosh
+	email = arindamgh@in.ibm.com
+[http]
+    sslVerify = false
+	proxy =
+[credential]
+	helper = manager
+[core]
+	longpaths = true
